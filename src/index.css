@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom NETGRID Brand Colors */
+:root {
+    --netgrid-navy: #001F3F;
+    --netgrid-teal: #39CCCC;
+}
+
+/* Example usage */
+.bg-netgrid-navy {
+    background-color: var(--netgrid-navy);
+}
+
+.text-netgrid-navy {
+    color: var(--netgrid-navy);
+}
+
+.bg-netgrid-teal {
+    background-color: var(--netgrid-teal);
+}
+
+.text-netgrid-teal {
+    color: var(--netgrid-teal);
+}
